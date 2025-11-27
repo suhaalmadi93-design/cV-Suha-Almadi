@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --colorwhite: white;
+    --colorblack: black;
+    --colorgray:  gray;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    max-width: 100vw;
+    min-width: 320px;
+    font-size: clamp(8px, 1rem, 2em);
+}
+h3 {
+    text-shadow: 2px 2px hwb(43 43% 6% / 0.728);
+    font-size: 2em;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100vw;
+    background-color: black;
+    color: hwb(43 43% 6% / 0.728);
+    padding: 10px 10px;
+    font-size: clamp(8px, 1rem, 2em);
+    border: 5px solid hwb(43 43% 6% / 0.728);
+}    
+#nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 26%;
+    }
+    a {
+        display: flex;
+        flex-direction: column;
+        color: hwb(43 43% 6% / 0.728);
+        font-size: clamp(8px, 1rem, 2em);
+        text-decoration: none;
+        padding-top: 10px;
+    }
+#img {
+    display: flex;
+    width: 30%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    .suha {
+        display: flex;
+        object-fit: cover;
+        border: 2px solid hwb(43 43% 6% / 0.728);
+        border-radius: 45%;
+        width: 200px;
+        height: 200px;
+    }
+}    
+.name {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 30%;
+    font-size: clamp(8px, 1rem, 2em);
+    h1{
+        display: flex;
+        padding: 20px 0;
+        font-size: 3em;
+        text-shadow: 2px 2px lightgrey;
+    }
+}    
+
+#main {
+    display: flex;
+    flex-direction: column;
+    background-color: hwb(43 43% 6% / 0.728);
+    color: black;
+    padding: 10px 10px;
+    width: 100%;
+    max-width: 100vw;
+    min-width: 320px;
+    gap: 10px;
+    border: 5px solid black;
+
+}
+.content-suha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    padding: 10px 10px;
+    width: 100%;
+    max-width: 100vw;
+    gap: 10px;
+}
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px;
+    width: 100%;
+    max-width: 100vw;
+    gap: 20px;
+    border: 5px solid hwb(43 43% 6% / 0.728);
+    padding: 5px;
+    margin: auto;
+}
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+.content-jobb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    width: 50%;
+    border: 5px solid black;
+    padding: 10px 10px;
+}
+.content-jobb:hover {
+    background-color: rgb(234, 175, 186);
+}
+.content-school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    color: black;
+    border: 5px solid black;
+    padding: 10px 10px; 
+    background-color: rgb(234, 175, 186);
+}
+.content-school:hover {
+    background-color: hwb(43 43% 6% / 0.728);
+}
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    justify-self: flex-start;
+    width: 40%;
+    max-width: 100vw;
+    background-color: hwb(43 43% 6% / 0.728);
+    color: black;
+    padding: 10px 0;
+    border: 5px solid black;
+}
+#sidebar:hover {
+    background-color: rgb(234, 175, 186);
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    color: black;     
+}
+.Language {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    color: black;
+}
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+    gap: 20px;
+    border: 5px solid hwb(43 43% 6% / 0.728);
+    padding: 5px;
+    margin: auto;
+    
+}
+.content-Internship {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    color: black;
+    margin: 0;
+    padding: 10px 10px;
+    border: 5px solid black;
+}
+.content-Internship:hover {
+    background-color: rgb(234, 175, 186);
+}
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    color: black; 
+    padding: 10px 10px;
+    border: 5px solid black;
+}
+.work:hover {
+    background-color: rgb(234, 175, 186);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: hwb(43 43% 6% / 0.728);
+    max-width: 100vw;
+    height: 34px;
+    padding: 10px;
+}
+@media screen and (max-width:600px) {
+    #container {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        font-size: clamp(8px, 1rem, 2em);
+        flex-direction: column;
+        align-items: center;
+    }
+    #header {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        font-size: clamp(8px, 1rem, 2em);
+        flex-direction: column;
+        align-items: center;
+    }
+#main {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        font-size: clamp(8px, 1rem, 2em);
+        flex-direction: column;
+        align-items: center; 
+}
+#main>div {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        font-size: clamp(8px, 1rem, 2em);
+        flex-direction: column;
+        align-items: center;
+}
+a, h3, h1, p {
+        display:flex;
+        flex-direction: column;
+        font-size: clamp(8px, 1rem, 2em);
+        width: 100%;
+}
+}
