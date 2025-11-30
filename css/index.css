@@ -263,4 +263,25 @@ a, h3, h1, p {
         font-size: clamp(8px, 1rem, 2em);
         width: 100%;
 }
+
+}
+@media screen and (max-width:600px) {
+    #container, header, #main, .box1, .skills, .content-jobb, .plan, .content-school, #sidebar, .box2, .work {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100vw;
+    }
+}
+@media screen and (min-width:601) and (max-width:900px) {
+    #container, header, #main, .box1, .skills, .content-jobb, .plan, .content-school, #sidebar, .box2, .work {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100vw;
+    }
 }
