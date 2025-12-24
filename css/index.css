@@ -251,7 +251,7 @@ footer{
     justify-content: space-around;
     background-color: black;
     color: hwb(43 43% 6% / 0.728);
-    width: 100vw;
+    width: 100%;
     padding: 40px;
     text-align: center;
 }
@@ -329,5 +329,6 @@ a, h3, h1, p {
     max-width: 100vw;
     }
 }
+
 
 
